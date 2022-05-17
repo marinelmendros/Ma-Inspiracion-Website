@@ -1,0 +1,477 @@
+/* External CSS */
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+header{
+	height: 80px;
+	background-color: cornsilk;
+}
+
+div.main{
+	min-height: 75px;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+}
+
+div.main img{
+	float: left;
+	width: 145px;
+	height: 60px;
+	padding: 5px;
+}
+
+div.main ul{
+	margin: 0px;
+	padding: 10px;
+	flex: 1;
+	text-align: right;
+}
+
+div.main ul li{
+	list-style-type: none;
+	display: inline-block;
+	position: relative;
+}
+
+div.main ul li a{
+	color: saddlebrown;
+	text-decoration: none;
+	padding: 3px 5px;
+	border: 1px solid #fff;
+	font-weight: bold;
+	font-size: 14px;
+	margin-right: 15px;
+	transition: 0.6s ease;
+}
+
+div.main ul li a.active{
+	color: #D2691E;
+}
+
+div.main ul li a:hover{
+	color: #F4A460;
+	background: #000;
+}
+
+div.banner{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+
+div.banner img{
+	width: 100%;
+	height: 500px;
+}
+
+div.content{
+	width: 105%;
+	height: 400px;
+	text-align: center;
+}
+
+div.content h1{
+	font-size: 60px;
+	color: white;
+}
+
+
+div.content p{
+	margin: 10px 0 40 px;
+	font-size: 16px;
+	color: white;
+}
+
+div.content ul{
+	margin: 0px;
+	padding: 10px 0;
+}
+
+
+div.content ul li{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+}
+
+div.content ul li a{
+	display: inline-block;
+	list-style-type: none;
+	text-decoration: none;
+	color: #FFF8DC;
+	border: 2px solid #FFF8DC;
+	padding: 12px 30px;
+	font-size: 16px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+
+div.content ul li a:hover{
+	color: #FFEC33;
+}
+
+div.nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+div.footer{
+	clear: both;
+	border-top: 2px solid white;
+	padding: 10px;
+	text-align: center;
+	background-color: #DEB887;
+}
+
+div.footer p{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+div.footer i {
+	color: #fff;
+}
+
+div.footer a:hover {
+	background-color:  #fff;
+	box-shadow:  2px 2px 12px rgba(0, 0, 0, 2);
+	transition: all ease 0.5s;
+}
+
+div.footer a:hover i {
+	color: saddlebrown;
+	transition:  all ease 0.s;
+}
+
+
+/*about*/
+
+div.banner1{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+
+div.banner1 img{
+	width: 100%;
+	height: 400px;
+}
+
+div.aboutme{
+	width: 100%;
+	height: 300px;
+	text-align: center;
+}
+
+div.aboutme h2{
+	font-size: 30px;
+	color: white;
+	font-family: cursive;
+	border: 2px solid #FFF8DC;
+	display: inline-block;
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                
+
+div.aboutme p{
+	text-decoration: none;
+	margin: 15px 0 20px;
+	font-size: 17px;
+	font-family: Hawaii\ 5-0;
+	color: white;
+	padding: 10px;
+}
+
+
+div.aboutme button{
+	padding: 5px 30px;
+	border: none;
+	outline: none;
+	background: #8B4513;
+	color: white;
+	cursor: pointer;
+	border-radius: 4px;
+	font-size: 16px;
+	margin: 0 auto;
+	float: center;
+	transition: 0.2s all;
+}
+
+
+div.aboutme button:hover{
+	transform: scale(1.04);
+}
+
+
+
+/*favorite*/
+
+div.banner2{
+	width: 100%;
+	height: 70px;
+	text-align: center;
+}
+
+div.banner2 img{
+	width: 100%;
+	height: 1503px;
+}
+
+div.favorite{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	display: inline-block;
+}
+
+div.favorite h1{
+	font-size: 30px;
+	color: white;
+	font-family: cursive;
+	border: 2px solid #FFF8DC;
+	display: inline-block;
+}
+
+
+div.favorite p{
+	text-decoration: none;
+	background: #FFCC99;
+	margin: 15px 0 20px;
+	font-size: 16px;
+	font-family: Hawaii\ 5-0;
+	color: brown;
+	padding: 10px;
+}
+
+
+section.books{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 35px 20px;
+	grid-column-gap: 20px;
+	grid-row-gap: 30px;
+	text-align: center;
+}
+
+div.book img{
+	width: 100%;
+	height: 330px;
+	object-fit: cover;
+	cursor: pointer;
+	transition: 0.2s ease;
+}
+
+div.book img:hover{
+	transform: scale(1.04);
+}
+
+div.book h2{
+	padding: 3px;
+	font-size: 16px;
+	font-family: cursive;
+	color: white;
+}
+
+div.book button{
+	padding: 5px 30px;
+	border: none;
+	outline: none;
+	background: #8B4513;
+	color: white;
+	cursor: pointer;
+	border-radius: 4px;
+	font-size: 16px;
+	margin: 0 auto;
+	float: center;
+	transition: 0.2s all;
+}
+
+
+div.book button:hover{
+	transform: scale(1.04);
+}
+
+
+
+/*contact*/
+
+div.banner3{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+
+div.banner3 img{
+	width: 100%;
+	height: 700px;
+}
+
+
+div.contact{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+
+div.contact h1{
+	font-size: 30px;
+	color: white;
+	font-family: cursive;
+	border: 2px solid #FFF8DC;
+	display: inline-block;
+}
+
+
+div.contact p{
+	text-decoration: none;
+	margin: 15px 0 20px;
+	font-size: 17px;
+	font-family: Hawaii\ 5-0;
+	color: white;
+	padding: 10px;
+}
+
+.field{
+	width: 50%;
+	padding: 10px;
+	outline: none;
+	border: 2px solid rgba(0, 0, 0, 0);
+	background-color: rgba(230, 230, 230, 0.6);
+	font-size: 14px;
+	margin-bottom: 22px;
+	transition: 0.3s;
+	display: center;
+}
+
+.field:hover{
+	background-color: #fff;
+}
+
+.field:focus{
+	border: 2px solid black;
+}
+
+.area{
+	min-height: 140px;
+}
+
+.btn{
+	width: 50%;
+	height: auto;
+	padding: 10px;
+	font-size: 14px;
+	color: white;
+	background-color: #8B4513;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	margin: 10px 0px 10px 10px;
+	float: center;
+}
+
+.btn:hover{
+	background-color: #8B4513;
+}
+
+
+
+
+/*genres*/
+
+div.banner2{
+	width: 100%;
+	height: 70px;
+	text-align: center;
+}
+
+div.banner2 img{
+	width: 100%;
+	height: 1503px;
+}
+
+div.favorite{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	display: inline-block;
+}
+
+div.favorite h1{
+	font-size: 30px;
+	color: white;
+	font-family: cursive;
+	border: 2px solid #FFF8DC;
+	display: inline-block;
+}
+
+
+div.favorite p{
+	text-decoration: none;
+	background: #FFCC99;
+	margin: 15px 0 20px;
+	font-size: 16px;
+	font-family: Hawaii\ 5-0;
+	color: brown;
+	padding: 10px;
+}
+
+
+section.genres{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	padding: 35px 20px;
+	grid-column-gap: 20px;
+	grid-row-gap: 30px;
+	text-align: center;
+}
+
+div.genre img{
+	width: 100%;
+	height: 320px;
+	object-fit: cover;
+	cursor: pointer;
+	transition: 0.2s ease;
+}
+
+div.genre img:hover{
+	transform: scale(1.04);
+}
+
+div.genre h2{
+	padding: 3px;
+	font-size: 18px;
+	font-family: cursive;
+	color: white;
+}
+
+div.genre button{
+	padding: 5px 30px;
+	border: none;
+	outline: none;
+	background: #8B4513;
+	color: white;
+	cursor: pointer;
+	border-radius: 4px;
+	font-size: 16px;
+	margin: 0 auto;
+	float: center;
+	transition: 0.2s all;
+}
+
+
+div.genre button:hover{
+	transform: scale(1.04);
+}
+
+
+
+
+
+
+
+
